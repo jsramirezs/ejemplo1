@@ -10,4 +10,4 @@ RUN cd /app && npm install
 
 EXPOSE 8000
 
-CMD cd /app & npm start
+CMD cd /app && npm start
