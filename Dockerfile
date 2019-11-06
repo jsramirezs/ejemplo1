@@ -8,6 +8,4 @@ RUN apt-get install -y nodejs npm
 
 RUN cd /app && npm install 
 
-EXPOSE 8000
-
 CMD cd /app && npm start
